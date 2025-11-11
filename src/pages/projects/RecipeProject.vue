@@ -27,7 +27,10 @@
       <p>
         Tijdens mijn stage bij AH Labs werkte ik als front-end developer aan de interne webapplicatie Recept Generator 2.0.
         Deze tool ondersteunt de teams van Allerhande (Albert Heijn) bij het maken en beheren van recepten.
+        Ik was verantwoordelijk voor het ontwikkelen van de lay-out van de receptenpagina’s, de interactieve receptcards en
+        functionaliteiten waarmee gebruikers recepten konden vergelijken en beheren binnen de applicatie.
       </p>
+
 
       <p>
         Het project werd uitgevoerd in een agile team bestaande uit backend developers en een UX-designer.

@@ -9,8 +9,8 @@ const routes = [
         meta: {title: 'Home'}
     },
     {
-        path: '/about',
-        name: 'about',
+        path: '/overmij',
+        name: 'overmij',
         component: () => import('../views/AboutView.vue'),
         meta: {title: 'About'}
     },
@@ -21,8 +21,8 @@ const routes = [
         meta: {title: 'Portfolio'}
     },
     {
-        path: '/blog',
-        name: 'blog',
+        path: '/contact',
+        name: 'contact',
         component: () => import('../views/BlogView.vue'),
         meta: {title: 'Blog'}
     },

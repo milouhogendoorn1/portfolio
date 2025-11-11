@@ -180,7 +180,7 @@
             </li>
             <li>
               <router-link
-                  to="/about"
+                  to="/overmij"
                   class="fadein-bot fadein-1 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0"
               >Over mij</router-link
               >
@@ -194,7 +194,7 @@
             </li>
             <li>
               <router-link
-                  to="/blog"
+                  to="/contact"
                   class="fadein-bot fadein-3 text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-500 md:p-0 blog"
               >Contact</router-link
               >
@@ -215,9 +215,9 @@
     >
       <nav class="flex justify-around py-4 text-xs">
         <router-link to="/" class="text-gray-300 hover:text-white">Home</router-link>
-        <router-link to="/about" class="text-gray-300 hover:text-white">Over mij</router-link>
+        <router-link to="/overmij" class="text-gray-300 hover:text-white">Over mij</router-link>
         <router-link to="/portfolio" class="text-gray-300 hover:text-white">Projecten</router-link>
-        <router-link to="/blog" class="text-gray-300 hover:text-white">Contact</router-link>
+        <router-link to="/contact" class="text-gray-300 hover:text-white">Contact</router-link>
       </nav>
     </footer>
   </div>
