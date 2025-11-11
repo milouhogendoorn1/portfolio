@@ -38,14 +38,14 @@ const routes = [
     //     component: () => import('@/pages/ProjectDetail.vue')
     // },
     {
-        path: '/project/grid-en-kleur',
-        name: 'GridEnKleurProject',
-        component: () => import('@/pages/projects/GridEnKleurProject.vue')
+        path: '/project/recipe',
+        name: 'RecipeProject',
+        component: () => import('@/pages/projects/RecipeProject.vue')
     },
     {
-        path: '/project/typografie',
-        name: 'TypografieProject',
-        component: () => import('@/pages/projects/TypografieProject.vue')
+        path: '/project/promo',
+        name: 'PromoProject',
+        component: () => import('@/pages/projects/PromoProject.vue')
     },
     {
         path: '/project/beeldtaal',

@@ -8,13 +8,13 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Gemiddeld'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Gemiddeld'
         },
         // {
         //   id: 3,
@@ -26,7 +26,7 @@ export default {
           id: 4,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          status: 'Basis'
         },
         // {
         //   id: 5,
@@ -40,42 +40,64 @@ export default {
         //   imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
         //   status: 'Intermediate'
         // },
-        {
-          id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
-        },
+
         // {
         //   id: 8,
         //   name: 'AlpineJS',
         //   imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
         //   status: 'Beginner'
         // },
+        // {
+        //   id: 9,
+        //   name: 'NodeJS',
+        //   imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+        //   status: 'Basis'
+        // },
+        // {
+        //   id: 10,
+        //   name: 'Tailwind',
+        //   imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+        //   status: 'Basis'
+        // },
+        // {
+        //   id: 11,
+        //   name: 'Bootstrap',
+        //   imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+        //   status: 'Basis'
+        // },
         {
-          id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          id: 14,
+          name: 'Kotlin',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png',
+          status: 'Basis',
+          desc: 'Voor Android-ontwikkeling'
         },
         {
-          id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
+          id: 15,
+          name: 'Java',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg',
+          status: 'Basis',
+          desc: 'Algemene programmeertaal'
         },
         {
-          id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          id: 16,
+          name: 'TypeScript',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+          status: 'Basis',
+          desc: 'Superset van JavaScript'
         },
         {
           id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
-        }
+          status: 'Basis'
+        },
+        {
+          id: 7,
+          name: 'VueJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          status: 'Basis'
+        },
       ],
       tools: [
         {
@@ -96,6 +118,12 @@ export default {
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
           status: 'Database'
         },
+        {
+          id: 13,
+          name: 'Figma',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
+          status: 'Design en prototyping'
+        }
       ]
     };
   }

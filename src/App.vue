@@ -154,15 +154,15 @@
             Milou Hogendoorn
           </span>
         </button>
-        <div class="flex md:order-2 fadein-bot">
-          <a href="https://github.com/milouhogendoorn" target="_blank" rel="noopener noreferrer">
-            <img
-                class="w-9 rounded-full"
-                src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"
-                alt="github"
-            />
-          </a>
-        </div>
+<!--        <div class="flex md:order-2 fadein-bot">-->
+<!--          <a href="https://github.com/milouhogendoorn" target="_blank" rel="noopener noreferrer">-->
+<!--            <img-->
+<!--                class="w-9 rounded-full"-->
+<!--                src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"-->
+<!--                alt="github"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
         <div
             class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1"
             id="mobile-menu-3"
@@ -215,9 +215,9 @@
     >
       <nav class="flex justify-around py-4 text-xs">
         <router-link to="/" class="text-gray-300 hover:text-white">Home</router-link>
-        <router-link to="/about" class="text-gray-300 hover:text-white">About</router-link>
-        <router-link to="/portfolio" class="text-gray-300 hover:text-white">Portfolio</router-link>
-        <router-link to="/blog" class="text-gray-300 hover:text-white">Blog</router-link>
+        <router-link to="/about" class="text-gray-300 hover:text-white">Over mij</router-link>
+        <router-link to="/portfolio" class="text-gray-300 hover:text-white">Projecten</router-link>
+        <router-link to="/blog" class="text-gray-300 hover:text-white">Contact</router-link>
       </nav>
     </footer>
   </div>
