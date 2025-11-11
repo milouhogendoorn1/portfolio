@@ -12,7 +12,7 @@ const routes = [
         path: '/overmij',
         name: 'overmij',
         component: () => import('../views/AboutView.vue'),
-        meta: {title: 'About'}
+        meta: {title: 'Overmij'}
     },
     {
         path: '/portfolio',
@@ -24,7 +24,7 @@ const routes = [
         path: '/contact',
         name: 'contact',
         component: () => import('../views/BlogView.vue'),
-        meta: {title: 'Blog'}
+        meta: {title: 'Contact'}
     },
     {
         path: '/read/:slug/:id',
